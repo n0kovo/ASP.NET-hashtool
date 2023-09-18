@@ -138,7 +138,7 @@ func main() {
 	pflag.Usage = func() {
 		if !advancedHelp {
 			fmt.Printf("Usage of %s:\n", os.Args[0])
-			fmt.Println("This application either generates or converts ASP.NET MVC4 password hashes.")
+			fmt.Println("This application either generates or converts ASP.NET MVC4/Web Forms password hashes.")
 			fmt.Println("Convert mode (default) reads hashes from stdin and writes hashcat mode 12000 compatible hashes to stdout.")
 			fmt.Println("Generate mode (-g) reads plaintext from stdin and writes ASP.NET MVC4 hashes to stdout.")
 			fmt.Println("Flags:")
@@ -156,7 +156,7 @@ func main() {
 			}
 		})
 		if advancedHelp {
-			fmt.Println("\nWARNING: Changing these parameters will result in hashes that are incompatible with ASP.NET MVC4.")
+			fmt.Println("\nWARNING: Changing these parameters will result in hashes that are incompatible with ASP.NET.")
 		}
 	}
 
