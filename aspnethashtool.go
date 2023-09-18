@@ -140,7 +140,7 @@ func main() {
 			fmt.Printf("Usage of %s:\n", os.Args[0])
 			fmt.Println("This application either generates or converts ASP.NET MVC4/Web Forms password hashes.")
 			fmt.Println("Convert mode (default) reads hashes from stdin and writes hashcat mode 12000 compatible hashes to stdout.")
-			fmt.Println("Generate mode (-g) reads plaintext from stdin and writes ASP.NET MVC4 hashes to stdout.")
+			fmt.Println("Generate mode (-g) reads plaintext from stdin and writes hashes to stdout.")
 			fmt.Println("Flags:")
 		} else {
 			fmt.Printf("Advanced options:\n")
