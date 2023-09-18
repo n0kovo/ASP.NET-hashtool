@@ -1,5 +1,15 @@
 # ASP.NET-hashtool
-Generate ASP.NET MVC4/Web Forms password hashes and convert MVC4 hashes to a hashcat-compatible format (12000).
+Generate ASP.NET MVC4/Web Forms password hashes and convert MVC4 hashes to a hashcat-compatible format.
+
+#### Two modes for generation:
+- SimpleMembershipProvider (MVC4)
+   - PBKDF2 with HMAC-SHA1, 128-bit salt, 256-bit subkey, 1000 iterations.
+- DefaultMembershipProvider (Web Forms)
+   - SHA256 with 128-bit salt 
+
+#### One mode for conversion:
+- SimpleMembershipProvider (MVC4)
+  - Outputs hashcat mode 12000 hashes
 
 ### Install:
 ```console
