@@ -1,4 +1,4 @@
-module github.com/n0kovo/aspnethashconv/v2
+module github.com/n0kovo/ASP.NET-hashtool/v2
 
 go 1.21.0
 
