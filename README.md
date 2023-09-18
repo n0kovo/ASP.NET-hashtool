@@ -30,3 +30,7 @@ Advanced options:
 
 WARNING: Changing these parameters will result in hashes that are incompatible with ASP.NET MVC4.
 ```
+
+### References:
+[https://stackoverflow.com/questions/12544790/use-the-salt-when-using-simplemembershipprovider/12545172#12545172](https://stackoverflow.com/questions/12544790/use-the-salt-when-using-simplemembershipprovider/12545172#12545172)
+[https://hashcat.net/forum/thread-1752.html](https://hashcat.net/forum/thread-1752.html)
