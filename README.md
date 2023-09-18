@@ -8,9 +8,9 @@ go install github.com/n0kovo/ASP.NET-hashtool@latest
 
 ### Usage:
 ```console
-This application either generates or converts ASP.NET MVC4 password hashes.
+This application either generates or converts ASP.NET MVC4/Web Forms password hashes.
 Convert mode (default) reads hashes from stdin and writes hashcat mode 12000 compatible hashes to stdout.
-Generate mode (-g) reads plaintext from stdin and writes ASP.NET MVC4 hashes to stdout.
+Generate mode (-g) reads plaintext from stdin and writes hashes to stdout.
 Flags:
  -a, --advanced-help        print help message for advanced hashing options
  -d, --delimiter            delimiter to split username and salt+hash if --username is used (default: ",")
